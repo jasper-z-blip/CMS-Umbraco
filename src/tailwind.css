@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 { @apply text-[50px] font-bold text-dark-grey; }
+  h2 { @apply text-[40px] font-bold text-dark-grey; }
+  h3 { @apply text-[30px] font-bold; }
+  h5 { @apply text-[22px] font-semibold text-dark-grey; }
+  h6 { @apply text-[18px] font-bold; }
+  
+  li { @apply text-[16px] font-bold text-dark-grey; }
+  p  { @apply text-[14px] text-light-grey; }
+
+  li:hover { @apply text-light-grey}
+}
+
+@layer components {  
+  .t-lg     { @apply text-light-grey;}
+  .quote    { @apply text-[20px] text-light-grey; }
+  .eyebrow  { @apply text-[14px] font-bold text-mid-beige; }
+
+  .page-container { @apply max-w-[1170px] mx-auto px-2 sm:px-4 md:px-6 lg:px-8 xl:px-0; }
+  .page-container-2 { @apply max-w-[767px] mx-auto px-2 sm:px-4 md:px-6 lg:px-8 xl:px-0; }
+  .card           { @apply rounded-sm bg-white p-6 shadow-sm; }
+
+  .card:hover { @apply shadow-md transition; }
+
+  .btn            { @apply inline-block rounded-sm px-6 py-3 font-semibold text-light-beige; }
+  .btn-primary    { @apply bg-dark-grey; }
+  .btn-secondary  { @apply text-light-beige; }
+
+  .btn:hover { @apply bg-light-grey text-mid-beige; }
+}
+
+@layer utilities {
+  .border-card { @apply border border-2 ; }
+  .card-padding { @apply pl-6 pt-4 pb-4; }
+  .input-box { @apply w-full py-1 px-1 border border-light-grey; }
+  .input-box-2 { @apply py-1 px-1 border border-light-grey; }
+
+  .input-box:focus { @apply focus:ring-2 focus:ring-slate-200 outline-none transition; }
+}
