@@ -717,8 +717,8 @@ li:hover {
   bottom: 0px;
 }
 
-.bottom-\[-80px\] {
-  bottom: -80px;
+.bottom-\[-100px\] {
+  bottom: -100px;
 }
 
 .left-0 {
@@ -729,16 +729,8 @@ li:hover {
   left: 50%;
 }
 
-.top-\[1000px\] {
-  top: 1000px;
-}
-
-.bottom-\[-90px\] {
-  bottom: -90px;
-}
-
-.bottom-\[-100px\] {
-  bottom: -100px;
+.top-\[830px\] {
+  top: 830px;
 }
 
 .z-0 {
@@ -810,12 +802,20 @@ li:hover {
   height: 100%;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-\[100px\] {
   min-height: 100px;
 }
 
 .min-h-\[200px\] {
   min-height: 200px;
+}
+
+.min-h-\[552px\] {
+  min-height: 552px;
 }
 
 .min-h-\[838px\] {
@@ -826,12 +826,12 @@ li:hover {
   min-height: 100vh;
 }
 
-.min-h-\[552px\] {
-  min-height: 552px;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-\[1170px\] {
@@ -964,6 +964,10 @@ li:hover {
   border-radius: 0.125rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -983,6 +987,10 @@ li:hover {
 
 .border-dark-grey {
   border-color: var(--dark-grey);
+}
+
+.border-mid-beige {
+  border-color: var(--mid-beige);
 }
 
 .bg-bg-darkgreen {
@@ -1138,8 +1146,8 @@ li:hover {
   font-size: 20px;
 }
 
-.text-\[80px\] {
-  font-size: 80px;
+.text-\[75px\] {
+  font-size: 75px;
 }
 
 .text-lg {
@@ -1157,8 +1165,8 @@ li:hover {
   line-height: 1.75rem;
 }
 
-.text-\[75px\] {
-  font-size: 75px;
+.text-\[24px\] {
+  font-size: 24px;
 }
 
 .font-bold {
@@ -1167,11 +1175,6 @@ li:hover {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.text-\[\#B38A61\] {
-  --tw-text-opacity: 1;
-  color: rgb(179 138 97 / var(--tw-text-opacity));
 }
 
 .text-dark-grey {
@@ -1221,10 +1224,18 @@ li:hover {
   width: 100%;
   border-width: 1px;
   border-color: var(--light-grey);
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.input-box::-moz-placeholder {
+  font-style: italic;
+}
+
+.input-box::placeholder {
+  font-style: italic;
 }
 
 .input-box:focus {

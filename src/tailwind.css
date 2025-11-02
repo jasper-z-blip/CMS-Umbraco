@@ -37,8 +37,7 @@
 @layer utilities {
   .border-card { @apply border border-2 ; }
   .card-padding { @apply pl-6 pt-4 pb-4; }
-  .input-box { @apply w-full py-1 px-1 border border-light-grey; }
-  .input-box-2 { @apply py-1 px-1 border border-light-grey; }
+  .input-box { @apply w-full py-2 px-2 border border-light-grey placeholder:italic; }
 
   .input-box:focus { @apply focus:ring-2 focus:ring-slate-200 outline-none transition; }
 }
