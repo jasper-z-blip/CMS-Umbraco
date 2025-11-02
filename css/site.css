@@ -612,6 +612,12 @@ li:hover {
   color: var(--mid-beige);
 }
 
+.eyebrow-s {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--mid-beige);
+}
+
 .page-container {
   margin-left: auto;
   margin-right: auto;
@@ -711,8 +717,8 @@ li:hover {
   bottom: 0px;
 }
 
-.bottom-\[-90px\] {
-  bottom: -90px;
+.bottom-\[-80px\] {
+  bottom: -80px;
 }
 
 .left-0 {
@@ -725,6 +731,14 @@ li:hover {
 
 .top-\[1000px\] {
   top: 1000px;
+}
+
+.bottom-\[-90px\] {
+  bottom: -90px;
+}
+
+.bottom-\[-100px\] {
+  bottom: -100px;
 }
 
 .z-0 {
@@ -796,10 +810,6 @@ li:hover {
   height: 100%;
 }
 
-.max-h-\[1052px\] {
-  max-height: 1052px;
-}
-
 .min-h-\[100px\] {
   min-height: 100px;
 }
@@ -808,12 +818,16 @@ li:hover {
   min-height: 200px;
 }
 
-.min-h-\[860px\] {
-  min-height: 860px;
+.min-h-\[838px\] {
+  min-height: 838px;
 }
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-\[552px\] {
+  min-height: 552px;
 }
 
 .w-full {
@@ -822,6 +836,10 @@ li:hover {
 
 .max-w-\[1170px\] {
   max-width: 1170px;
+}
+
+.max-w-\[520px\] {
+  max-width: 520px;
 }
 
 .flex-grow {
@@ -988,6 +1006,10 @@ li:hover {
   background-size: contain;
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -1060,10 +1082,6 @@ li:hover {
   padding-bottom: 2rem;
 }
 
-.pb-\[220px\] {
-  padding-bottom: 220px;
-}
-
 .pl-48 {
   padding-left: 12rem;
 }
@@ -1078,6 +1096,10 @@ li:hover {
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pt-2 {
@@ -1108,10 +1130,6 @@ li:hover {
   font-family: Poppins, ui-sans-serif, system-ui;
 }
 
-.text-\[13px\] {
-  font-size: 13px;
-}
-
 .text-\[16px\] {
   font-size: 16px;
 }
@@ -1120,8 +1138,8 @@ li:hover {
   font-size: 20px;
 }
 
-.text-\[48px\] {
-  font-size: 48px;
+.text-\[80px\] {
+  font-size: 80px;
 }
 
 .text-lg {
@@ -1137,6 +1155,10 @@ li:hover {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[75px\] {
+  font-size: 75px;
 }
 
 .font-bold {
